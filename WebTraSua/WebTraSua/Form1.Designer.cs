@@ -33,24 +33,25 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbl_gh
             // 
             this.lbl_gh.AutoSize = true;
-            this.lbl_gh.Location = new System.Drawing.Point(213, 89);
+            this.lbl_gh.Location = new System.Drawing.Point(189, 71);
             this.lbl_gh.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_gh.Name = "lbl_gh";
-            this.lbl_gh.Size = new System.Drawing.Size(74, 20);
+            this.lbl_gh.Size = new System.Drawing.Size(61, 16);
             this.lbl_gh.TabIndex = 0;
             this.lbl_gh.Text = "Giỏ hàng";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(156, 374);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Location = new System.Drawing.Point(139, 299);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(192, 29);
+            this.button1.Size = new System.Drawing.Size(171, 23);
             this.button1.TabIndex = 1;
             this.button1.Text = "Them vao gio";
             this.button1.UseVisualStyleBackColor = true;
@@ -58,10 +59,9 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(156, 292);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.checkBox1.Location = new System.Drawing.Point(139, 234);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(73, 24);
+            this.checkBox1.Size = new System.Drawing.Size(60, 20);
             this.checkBox1.TabIndex = 2;
             this.checkBox1.Text = "Chọn";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -69,33 +69,57 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(130, 199);
+            this.label1.Location = new System.Drawing.Point(116, 159);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 20);
+            this.label1.Size = new System.Drawing.Size(51, 16);
             this.label1.TabIndex = 3;
             this.label1.Text = "Tên Sp";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(943, 70);
+            this.button2.Location = new System.Drawing.Point(771, 56);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(146, 59);
+            this.button2.Size = new System.Drawing.Size(197, 47);
             this.button2.TabIndex = 4;
-            this.button2.Text = "Đăng nhập";
+            this.button2.Text = "Đăng nhập / Đăng ký";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(838, 308);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(130, 47);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "Thanh toán";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(883, 280);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(85, 16);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Tổng giá tiền";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lbl_gh);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -110,6 +134,8 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label2;
     }
 }
 
