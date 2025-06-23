@@ -47,6 +47,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.btn_xn = new System.Windows.Forms.Button();
+            this.btn_dh = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_gh
@@ -61,7 +62,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(106, 271);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(128, 19);
             this.button1.TabIndex = 1;
@@ -72,7 +73,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(89, 184);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(51, 17);
             this.checkBox1.TabIndex = 2;
@@ -93,7 +94,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(578, 46);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(148, 38);
             this.button2.TabIndex = 4;
@@ -104,7 +105,7 @@
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(440, 198);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(98, 38);
             this.button3.TabIndex = 5;
@@ -145,7 +146,7 @@
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(670, 260);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(56, 19);
             this.button4.TabIndex = 9;
@@ -155,7 +156,7 @@
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(578, 106);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(148, 36);
             this.button5.TabIndex = 10;
@@ -165,7 +166,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(89, 55);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(182, 20);
             this.textBox1.TabIndex = 11;
@@ -174,7 +175,7 @@
             // button6
             // 
             this.button6.Location = new System.Drawing.Point(578, 162);
-            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(148, 38);
             this.button6.TabIndex = 12;
@@ -241,11 +242,21 @@
             this.btn_xn.Text = "Xác nhận giỏ hàng";
             this.btn_xn.UseVisualStyleBackColor = true;
             // 
+            // btn_dh
+            // 
+            this.btn_dh.Location = new System.Drawing.Point(327, 314);
+            this.btn_dh.Name = "btn_dh";
+            this.btn_dh.Size = new System.Drawing.Size(136, 23);
+            this.btn_dh.TabIndex = 19;
+            this.btn_dh.Text = "Đơn hàng chấm xanh";
+            this.btn_dh.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_dh);
             this.Controls.Add(this.btn_xn);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -293,6 +304,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button btn_xn;
+        private System.Windows.Forms.Button btn_dh;
     }
 }
 
