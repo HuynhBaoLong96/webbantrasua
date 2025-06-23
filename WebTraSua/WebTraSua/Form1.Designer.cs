@@ -48,6 +48,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.btn_xn = new System.Windows.Forms.Button();
             this.btn_dh = new System.Windows.Forms.Button();
+            this.btn_xnthdh = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_gh
@@ -251,11 +252,21 @@
             this.btn_dh.Text = "Đơn hàng chấm xanh";
             this.btn_dh.UseVisualStyleBackColor = true;
             // 
+            // btn_xnthdh
+            // 
+            this.btn_xnthdh.Location = new System.Drawing.Point(501, 271);
+            this.btn_xnthdh.Name = "btn_xnthdh";
+            this.btn_xnthdh.Size = new System.Drawing.Size(146, 23);
+            this.btn_xnthdh.TabIndex = 20;
+            this.btn_xnthdh.Text = "Xác nhận thanh toán khi giao hàng";
+            this.btn_xnthdh.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_xnthdh);
             this.Controls.Add(this.btn_dh);
             this.Controls.Add(this.btn_xn);
             this.Controls.Add(this.label9);
@@ -305,6 +316,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button btn_xn;
         private System.Windows.Forms.Button btn_dh;
+        private System.Windows.Forms.Button btn_xnthdh;
     }
 }
 
