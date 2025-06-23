@@ -83,7 +83,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(197, 47);
             this.button2.TabIndex = 4;
-            this.button2.Text = "Đăng nhập / Đăng ký";
+            this.button2.Text = "Đăng xuất";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -119,7 +119,7 @@
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lbl_gh);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
